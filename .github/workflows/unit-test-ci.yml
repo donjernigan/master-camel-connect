@@ -1,13 +1,13 @@
-# name: Run Unit Tests on push for Develop, on PR for master.
-#
-# on:
-#   pull_request:
-#     branches:
-#       - master
-#
-#   push:
-#     branches:
-#       - develop
+ name: Run Unit Tests on push for Develop, on PR for master.
+
+ on:
+   pull_request:
+     branches:
+       - master
+
+   push:
+     branches:
+       - donjernigan-actions
 #
 # jobs:
 #   build:
